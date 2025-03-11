@@ -10,11 +10,12 @@ The entire dataset comprises 81 videos (sampled at 2 frames per second, resultin
 <div align=center><img width="600" height="400" src="./annotations.png"/></div>
 <!-- ![Branching](./annotations.png) -->
 
-The Gu-RRR-v1 dataset is constructed by the I+ Lab at the University of Electronic Science and Technology of China and is now available for academic purposes only, distributed on a case-by-case basis. The I+ Lab at the University of Electronic Science and Technology of China serves as the constructor and distributor of the dataset and retains the copyright of all videos and images within the dataset. Any researcher requesting access to the Gu-RRR-v1 dataset must sign this agreement and thereby agrees to adhere to the restrictions outlined in this document.
+The Gu-RRR-v1 dataset is now available for academic purposes only, distributed on a case-by-case basis. The I+ Lab at the University of Electronic Science and Technology of China serves as the constructor and distributor of the dataset and retains the copyright of all videos and images within the dataset. Any researcher requesting access to the Gu-RRR-v1 dataset must sign this agreement and thereby agrees to adhere to the restrictions outlined in this document.
 
 # DATASET STATISTIC
 
-![Branching](./dataset-statistic.png)
+<div align=center><img width="200" height="350" src="./annotations.png"/></div>
+<!-- ![Branching](./dataset-statistic.png) -->
 
 **Environment Description:**
   - weather: sunny, rainy, unknow.
