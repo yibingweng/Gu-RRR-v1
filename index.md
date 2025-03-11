@@ -49,7 +49,7 @@ The Gu-RRR-v1 dataset is now available for academic purposes only, distributed o
 
 # DOWNLOAD
 
-You can download the agreement (pdf) from [here](./another-page.html). After filling it, please send the electrical version to our Email: 202411081538@std.uestc.edu.cn (Subject: Gu-RRR-v1-Agreement) .
+You can download the agreement (pdf) from [here](./Gu-RRR-v1-AGREEMENT.pdf). After filling it, please send the electrical version to our Email: 202411081538@std.uestc.edu.cn (Subject: Gu-RRR-v1-Agreement) .
 
 Please send it through **an academic or institute email-addresses** such as xxx at xxx.edu.xx. Requests from free email addresses (outlook, gmail, qq etc) will be kindly refused.
 
