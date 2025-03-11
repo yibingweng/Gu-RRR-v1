@@ -1,8 +1,9 @@
 ---
 layout: default
+title: Road Rage Reasoning dataset (Gu-RRR-v1) 
 ---
 # INTRODUCTION
-The **Road Rage Reasoning (Gu-RRR-v1)** dataset is constructed by the I+ lab at the University of Electronic Science and Technology of China. The "Gu-RRR-v1" dataset contains multiple external driving events recorded by dashcams, which pose dangers, provocations, or obstacles to the current vehicle, thereby eliciting varying degrees of anger in drivers.
+The **Road Rage Reasoning dataset (Gu-RRR-v1)** is constructed by the I+ lab at the University of Electronic Science and Technology of China. The "Gu-RRR-v1" dataset contains multiple external driving events recorded by dashcams, which pose dangers, provocations, or obstacles to the current vehicle, thereby eliciting varying degrees of anger in drivers.
 
 The entire dataset comprises 81 videos (sampled at 2 frames per second, resulting in 2,299 images), covering 3 types of road rage scenarios and 9 types of road rage behaviors. The annotation information includes weather conditions, road types, road conditions, and more. Additionally, the dataset annotates the current vehicle and key targets (including pedestrians and vehicles) in the video that trigger anger, with detailed descriptions of actions and positions provided frame by frame.
 
