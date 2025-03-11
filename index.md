@@ -10,8 +10,6 @@ The entire dataset comprises 81 videos (sampled at 2 frames per second, resultin
 
 The Gu-RRR-v1 dataset is constructed by the I+ Lab at the University of Electronic Science and Technology of China and is now available for academic purposes only, distributed on a case-by-case basis. The I+ Lab at the University of Electronic Science and Technology of China serves as the constructor and distributor of the dataset and retains the copyright of all videos and images within the dataset. Any researcher requesting access to the Gu-RRR-v1 dataset must sign this agreement and thereby agrees to adhere to the restrictions outlined in this document.
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
 # DATASET STATISTIC
 
 ![Branching](https://github.githubassets.com/images/icons/emoji/octocat.png)
