@@ -12,7 +12,7 @@ The Gu-RRR-v1 dataset is constructed by the I+ Lab at the University of Electron
 
 # DATASET STATISTIC
 
-![Branching](./dataset statistic.png)
+![Branching](./dataset-statistic.png)
 
 **Environment Description:**
   - weather: sunny, rainy, unknow.
