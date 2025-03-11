@@ -1,123 +1,54 @@
 ---
 layout: default
 ---
+# INTRODUCTION
+The **Road Rage Reasoning (Gu-RRR-v1)** dataset is constructed by the I+ lab at the University of Electronic Science and Technology of China. The "Gu-RRR-v1" dataset contains multiple external driving events recorded by dashcams, which pose dangers, provocations, or obstacles to the current vehicle, thereby eliciting varying degrees of anger in drivers.
+
+The entire dataset comprises 81 videos (sampled at 2 frames per second, resulting in 2,299 images), covering 3 types of road rage scenarios and 9 types of road rage behaviors. The annotation information includes weather conditions, road types, road conditions, and more. Additionally, the dataset annotates the current vehicle and key targets (including pedestrians and vehicles) in the video that trigger anger, with detailed descriptions of actions and positions provided frame by frame.
+
+![Branching](https://github.githubassets.com/images/icons/emoji/octocat.png)
+
+The Gu-RRR-v1 dataset is constructed by the I+ Lab at the University of Electronic Science and Technology of China and is now available for academic purposes only, distributed on a case-by-case basis. The I+ Lab at the University of Electronic Science and Technology of China serves as the constructor and distributor of the dataset and retains the copyright of all videos and images within the dataset. Any researcher requesting access to the Gu-RRR-v1 dataset must sign this agreement and thereby agrees to adhere to the restrictions outlined in this document.
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](./another-page.html).
+# DATASET STATISTIC
 
-There should be whitespace between paragraphs.
+![Branching](https://github.githubassets.com/images/icons/emoji/octocat.png)
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+**Environment Description:**
+  - weather: sunny, rainy, unknow.
+  - time: daytime, night, unknow.
+  - road type: highway, city road, township road.
+  - road condition: normal, busy, congested.
+**Object Description:**
+  - number of lanes: integer.
+  - ego lane number: integer.
+  - ego lane condiiton: normal, congested.
+  - ego lane type: dashed lane, solid lane, dashed-solid lane, solid-dashed lane.
+  - **ego motions:** forward, stop, go ahead to the left, go ahead to the right.
+  - critical object description: like white car, red van, electric car, pedestrian and so on.
+  - critical object lane number: integer.
+  - critical object relative position: left, right, front, left front, right front.
+  - critical object distance: normal (safe distance to drive), relatively close (requires increased attention), dangerous (approaching or already in a collision).
+  - **critical object motions** can be described as (It can be a free combination of the following meta-actions. For vehicle, you need to describe them using genneral motions, vehicle motions and vehicle signals. For non-vehicle entity, you need to describe them using general motions and other motions):
+  - general motions: forward, slow down, stop, go ahead to the left, go ahead to the right.
+  - vehicle motions: overtake, pull into ego lane to the left, pull into ego lane to the right.
+  - vehicle signals: no turn signal, brake.
+  - other motions: crossing the street from left to right, crossing the street from right to left. 
 
-# Header 1
+# LICENSE
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+*  The videos, images, and corresponding annotation results can only be used for **ACADEMIC PURPOSES. NO COMMERCIAL USE** is allowed.
+*  Copyright © I+ Lab, University of Electronic Science and Technology of China (UESTC). All rights reserved.
 
-## Header 2
+# DOWNLOAD
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+You can download the agreement (pdf) from [here](./another-page.html). After filling it, please send the electrical version to our Email: 202411081538@std.uestc.edu.cn (Subject: Gu-RRR-v1-Agreement) .
 
-### Header 3
+Please send it through **an academic or institute email-addresses** such as xxx at xxx.edu.xx. Requests from free email addresses (outlook, gmail, qq etc) will be kindly refused.
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+After confirming your information, we will send the download link and password to you via Email. You need to follow the agreement.
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+Usually we will reply in a week. But sometimes the mail does not arrive and display successfully for some unknown reason. If this happened, please change the content or title and try sending again.
 
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
