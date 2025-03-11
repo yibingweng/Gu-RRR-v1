@@ -7,7 +7,7 @@ The **Road Rage Reasoning Dataset (Gu-RRR-v1)** is constructed by the I+ lab at 
 
 The entire dataset comprises 81 videos (sampled at 2 frames per second, resulting in 2,299 images), covering 3 types of road rage scenarios and 9 types of road rage behaviors. The annotation information includes weather conditions, road types, road conditions, and more. Additionally, the dataset annotates the current vehicle and key targets (including pedestrians and vehicles) in the video that trigger anger, with detailed descriptions of actions and positions provided frame by frame.
 
-<div align=center><img width="512" height="384" src="./annotations.png"/></div>
+<div align=center><img width="480" height="320" src="./annotations.png"/></div>
 <!-- ![Branching](./annotations.png) -->
 
 The Gu-RRR-v1 dataset is now available for academic purposes only, distributed on a case-by-case basis. The I+ Lab at the University of Electronic Science and Technology of China serves as the constructor and distributor of the dataset and retains the copyright of all videos and images within the dataset. Any researcher requesting access to the Gu-RRR-v1 dataset must sign this agreement and thereby agrees to adhere to the restrictions outlined in this document.
