@@ -14,7 +14,10 @@ The Gu-RRR-v1 dataset is now available for academic purposes only, distributed o
 
 # DATASET STATISTIC
 
-<div align=center><img width="256" height="400" src="./dataset-statistic.png"/></div>
+**Overview:**
+
+<div align=center><img width="704" height="176" src="./number.png"/></div>
+
 <!-- ![Branching](./dataset-statistic.png) -->
 
 **Environment Description:**
