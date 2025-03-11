@@ -21,6 +21,7 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
   - time: daytime, night, unknow.
   - road type: highway, city road, township road.
   - road condition: normal, busy, congested.
+
 **Object Description:**
   - number of lanes: integer.
   - ego lane number: integer.
@@ -32,10 +33,10 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
   - critical object relative position: left, right, front, left front, right front.
   - critical object distance: normal (safe distance to drive), relatively close (requires increased attention), dangerous (approaching or already in a collision).
   - **critical object motions** can be described as (It can be a free combination of the following meta-actions. For vehicle, you need to describe them using genneral motions, vehicle motions and vehicle signals. For non-vehicle entity, you need to describe them using general motions and other motions):
-  - general motions: forward, slow down, stop, go ahead to the left, go ahead to the right.
-  - vehicle motions: overtake, pull into ego lane to the left, pull into ego lane to the right.
-  - vehicle signals: no turn signal, brake.
-  - other motions: crossing the street from left to right, crossing the street from right to left. 
+    - general motions: forward, slow down, stop, go ahead to the left, go ahead to the right.
+    - vehicle motions: overtake, pull into ego lane to the left, pull into ego lane to the right.
+    - vehicle signals: no turn signal, brake.
+    - other motions: crossing the street from left to right, crossing the street from right to left. 
 
 # LICENSE
 
